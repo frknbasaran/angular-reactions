@@ -1,0 +1,114 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Angular-reactions by frknbasaran</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Angular-reactions</h1>
+        <p>Buzzfeed/Onedio style user reaction module as a directive for the AngularJS framework.</p>
+
+        <p class="view"><a href="https://github.com/frknbasaran/angular-reactions">View the Project on GitHub <small>frknbasaran/angular-reactions</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/frknbasaran/angular-reactions/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/frknbasaran/angular-reactions/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/frknbasaran/angular-reactions">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>
+<a id="angular-reactions" class="anchor" href="#angular-reactions" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Angular Reactions</h1>
+
+<p><img src="https://github.com/frknbasaran/angular-reactions/blob/master/pic.png" alt="Logo"></p>
+
+<h2>
+<a id="about" class="anchor" href="#about" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>About</h2>
+
+<p><strong>Angular Reactions</strong> is a directive for the <a href="http://angularjs.org/">AngularJS</a> framework. Provide smiley reactions for increase your community interaction.</p>
+
+<h2>
+<a id="package-managers" class="anchor" href="#package-managers" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Package managers</h2>
+
+<h3>
+<a id="bower" class="anchor" href="#bower" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Bower</h3>
+
+<pre><code>bower install angular-reactions
+</code></pre>
+
+<p>You could find this module in bower like <a href="http://bower.io/search/?q=angular%20reactions"><em>angular reactions</em></a>.</p>
+
+<h3>
+<a id="npm" class="anchor" href="#npm" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>NPM</h3>
+
+<pre><code>npm install angular-reactions
+</code></pre>
+
+<p>You could find this module in npm like <a href="https://www.npmjs.com/search?q=angular%20file%20upload"><em>angular reactions</em></a>.</p>
+
+<h3>
+<a id="getting-started" class="anchor" href="#getting-started" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Getting Started</h3>
+
+<p>You can easily integrate this feature to your app with 3 steps.</p>
+
+<h4>
+<a id="step-0" class="anchor" href="#step-0" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Step 0</h4>
+
+<p>Install Package</p>
+
+<p>Download package from package provider services or github repository.</p>
+
+<h4>
+<a id="step-1" class="anchor" href="#step-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Step 1</h4>
+
+<p>Inject Module as Dependency</p>
+
+<pre><code>angular.module('app', ['ngReactions'])
+</code></pre>
+
+<h4>
+<a id="step-2" class="anchor" href="#step-2" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Step 2</h4>
+
+<p>Define options object in current scope.</p>
+
+<pre><code>$scope.config = [
+            {"src":"https://srv-cdn.onedio.com/store/61333d24ca3819629e766cd21fa68c38d73deff54d0003e1107b46884d431b44.gif","count":0},
+            {"src":"https://srv-cdn.onedio.com/store/d4cadedb61a2db8bc8c5c369028cc4ffa4966c51d2d2c75f8e6167c07e1ba3e1.gif","count":0},
+            {"src":"https://srv-cdn.onedio.com/store/7a7b3371221253caf28fd06ea6c6a3a49fee9af11e206feaad66d7e9d72fd73e.gif","count":0},
+            {"src":"https://srv-cdn.onedio.com/store/9c889ddd1664e0e9e8fc1c93e8316503acd7c5c94cd4cdab3d3161f4e3a227f1.gif","count":0},
+            {"src":"https://srv-cdn.onedio.com/store/7213a0b115f88320a222b14c5daa3596729b9ec93f710da3d2f8b5a6004e9aba.gif","count":0},
+            {"src":"https://srv-cdn.onedio.com/store/8fd2ed53959eb901230be656a889da9518a36cd2a78ab38888963c79e26415c5.gif","count":0},
+            {"src":"https://srv-cdn.onedio.com/store/1ab646d43efac881b74c9a41fa443ad7d97cdf5ad591a5f14b4178702464eeaa.gif","count":0}
+        ]
+</code></pre>
+
+<h4>
+<a id="step-3" class="anchor" href="#step-3" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Step 3</h4>
+
+<p>Call directive from your template.</p>
+
+<pre><code>&lt;reactions options="config"&gt;&lt;/reactions&gt;
+</code></pre>
+
+<p>That's all.</p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/frknbasaran">frknbasaran</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
