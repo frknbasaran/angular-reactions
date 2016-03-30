@@ -4,7 +4,7 @@
 
 ## About
 
-**Angular Reactions** is a directive for the [AngularJS](http://angularjs.org/) framework. Provide smiley reactions for increase your community interaction.
+**Angular Reactions** is a directive for the [AngularJS](http://angularjs.org/) framework. Provide smiley reactions for increase your community interaction. This package stable with Angular version v1.4.7
 
 
 
