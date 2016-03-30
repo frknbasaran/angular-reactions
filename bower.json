@@ -1,0 +1,27 @@
+{
+  "name": "angular-reactions",
+  "description": "Buzzfeed/Onedio style user reaction module as a directive for the AngularJS framework.",
+  "main": "angular-reactions.js",
+  "authors": [
+    "Furkan Başaran"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "angular",
+    "reactions",
+    "emotions",
+    "smileys",
+    "directive"
+  ],
+  "homepage": "https://github.com/frknbasaran/angular-reactions",
+  "moduleType": [
+    "node"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
