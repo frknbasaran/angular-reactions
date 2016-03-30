@@ -1,6 +1,6 @@
 # Angular Reactions
 
----
+![Logo](https://github.com/frknbasaran/angular-reactions/blob/master/pic.png)
 
 ## About
 
