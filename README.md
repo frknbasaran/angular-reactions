@@ -66,6 +66,7 @@ Call directive from your template.
 
 That's all.
 
+If you have suggestions feel free to share or create issue/pull-request.
 
 
 
