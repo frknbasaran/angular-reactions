@@ -22,17 +22,17 @@ npm install angular-reactions
 You could find this module in npm like [_angular reactions_](https://www.npmjs.com/search?q=angular%20file%20upload).
 
 
-###Getting Started
+### Getting Started
 
 You can easily integrate this feature to your app with 3 steps.
 
-####Step 0
+#### Step 0
 
 Install Package
 
 Download package from package provider services or github repository.
 
-####Step 1
+#### Step 1
 
 Inject Module as Dependency
 
@@ -40,7 +40,7 @@ Inject Module as Dependency
 angular.module('app', ['ngReactions'])
 ```
 
-####Step 2
+#### Step 2
 
 Define options object in current scope.
 
@@ -56,7 +56,7 @@ $scope.config = [
 		]
 ```
 
-####Step 3
+#### Step 3
 
 Call directive from your template.
 
